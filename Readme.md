@@ -1,5 +1,7 @@
 # dm9000a rt-thread Driver for stm32f103ZET6 
 
+also have branch support stm32f407IGT6
+
 ## Pay Attention
 
 1. This driver is written for `stm32f103ZET6-atk-warshipv3` board, 

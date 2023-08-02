@@ -1,8 +1,8 @@
 #ifndef __DRV_DM9000_H__
 #define __DRV_DM9000_H__
 
-#define DM9000_IO_BASE      0x64000000  
-#define DM9000_DATA_BASE    0x64000100  // FSMC_A7 -- CMD = 1
+#define DM9000_IO_BASE      0x60000000
+#define DM9000_DATA_BASE    0x60080000  // FSMC_A18 -- CMD = 1
 
 #define DM9000_IO 			(*((volatile rt_uint16_t *) DM9000_IO_BASE))    // CMD = 0
 #define DM9000_DATA 		(*((volatile rt_uint16_t *) DM9000_DATA_BASE))  // CMD = 1
